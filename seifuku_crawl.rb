@@ -6,8 +6,8 @@ require 'pry'
 
 class Notice
 
-  def insert_link
-    "= = = = = = = = = = INSERT LINK = = = = = = = = = = = = = = = ="
+  def insert_number
+    "= = = = = = = = = = INSERT NUMBER = = = = = = = = = = = = = = = ="
   end
 
   def insert_last_page
@@ -47,7 +47,7 @@ class InsertData < Notice
   attr_accessor :link, :last_page
 
   def initialize
-    puts insert_link
+    puts insert_number
     @link = gets.chomp.to_s
     puts insert_last_page
     @last_page = gets.chomp.to_i
