@@ -24,6 +24,7 @@ Run this command in the folder you clone this repository
 ruby seifuku_crawl.rb
 ```
 "=== Insert number ==="
+
 Input the number, ex:
 ```
 http://www.itmtu.com/mm/69315/
@@ -33,6 +34,7 @@ http://www.itmtu.com/mm/68680/
 " 
 ```
 "=== INSERT LAST PAGE ==="
+
 Insert last page you want to download
 
 Wait and enjoy, thank for using.
